@@ -1,0 +1,117 @@
+.App {
+	text-align: center;
+}
+
+.App-logo {
+	height: 40vmin;
+	pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.App-logo {
+		animation: App-logo-spin infinite 20s linear;
+	}
+}
+
+.App-header {
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+.App-link {
+	color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.h100 {
+	height: 100vh !important;
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+.p-60 {
+	padding: 60px;
+}
+.vertical-align-center {
+	display: grid;
+	align-items: center;
+}
+.login-button-card {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+	height: 100%;
+	width: 100%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	transition: 0.3s;
+	cursor: pointer;
+	border-radius: 20px;
+	color: white;
+	font-size: 30px;
+	background-image: linear-gradient(45deg, #c02633, #233659);
+}
+.login-button-card:hover {
+	opacity: 0.9;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.login-card {
+	padding: 50px;
+	margin: auto;
+	height: 100%;
+	width: 100%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	transition: 0.3s;
+	border-radius: 20px;
+	background-color: white;
+}
+.float-right {
+	float: right;
+}
+
+.float-left {
+	float: left;
+}
+
+.breadcrumb-bg {
+	background-color: #e7e7e7;
+}
+.rdt_TableCol {
+	text-transform: uppercase;
+	border-right: 1px solid lightgrey;
+}
+.rdt_TableCell {
+	border-right: 1px solid lightgrey;
+}
+.bg {
+	background-color: beige;
+	min-height: 100vh;
+	overflow-x: hidden;
+}
+.rdt_TableHeadRow {
+	background-color: darkslategrey !important;
+	color: white;
+}
+.btn-position {
+	position: absolute;
+	z-index: 10;
+	right: 15px;
+	top: 12px;
+}
+.text-bold {
+	font-weight: 500;
+}
